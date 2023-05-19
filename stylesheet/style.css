@@ -1,0 +1,30 @@
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+
+.face-form {
+  box-shadow: 0 2px 20px 2px grey;
+  width: 400px;
+}
+.facebook {
+  letter-spacing: 2px;
+  font-size: 60px;
+}
+
+.border {
+  height: 42px;
+}
+.TextPass {
+  display: none;
+}
+
+.rMessage {
+  color: red;
+  display: block;
+}
+.gMessage {
+  color: green;
+  display: block;
+}

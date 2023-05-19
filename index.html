@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="stylesheet/all.min.css" />
+    <link rel="stylesheet" href="stylesheet/bootstrap.min.css" />
+    <link rel="stylesheet" href="stylesheet/style.css" />
+    <title>Facebook-Login</title>
+  </head>
+  <body class="bg-light">
+    <div class="container">
+      <div class="row d-flex justify-content-between facebook-row">
+        <div
+          class="col-lg-4 col-md-12 col-12 mt-5 d-flex flex-column justify-content-center text-center"
+        >
+          <h1 class="text-primary text-capitalize fw-bold facebook">
+            facebook
+          </h1>
+          <p class="text-black-50 fs-3">
+            Connect with friends and the world around you on Facebook.
+          </p>
+        </div>
+        <div
+          class="col-lg-6 col-md-12 col-12 mt-5 d-flex flex-column align-items-center"
+        >
+          <div class="row d-flex flex-column">
+            <div
+              class="col-lg-4 col-md-12 col-12 mt-5 d-flex flex-column bg-white rounded face-form"
+            >
+              <form
+                class="d-flex flex-column"
+                action="home.html"
+                onsubmit="return submitForm()"
+              >
+                <input
+                  class="email border border-opacity-10 rounded mt-4"
+                  type="text"
+                  placeholder="  Email address or phone number"
+                />
+                <input
+                  class="password border mt-3 rounded"
+                  type="password"
+                  placeholder="  Password"
+                />
+                <div class="d-flex">
+                  <input type="checkbox" class="showPass" />
+                  <p class="text-primary text-capitalize fw-bold mt-3 ms-2">
+                    show password
+                  </p>
+                </div>
+                <div class="d-flex align-items-center justify-content-center">
+                  <p class="TextPass">
+                    Password should be more than 6 charcters
+                  </p>
+                </div>
+                <button
+                  class="btn btn-primary rounded text-wrap text-decoration-none text-light text-capitalize fw-bold"
+                  type="submit"
+                >
+                  sign in
+                </button>
+              </form>
+              <a
+                class="text-capitalize text-decoration-none text-center mt-5 mb-3"
+                href="#"
+                >forget password?</a
+              >
+              <hr />
+              <div class="d-flex justify-content-center mb-4 mt-3">
+                <button class="btn btn-success rounded">
+                  <a
+                    class="text-wrap text-decoration-none text-light text-capitalize fw-bold"
+                    href="newaccount.html"
+                  >
+                    creat new account
+                  </a>
+                </button>
+              </div>
+            </div>
+            <div class="col-lg-10 col-md-12 col-12 mt-3">
+              <div class="bottom me-5">
+                <a class="text-decoration-none text-primary fw-bold" href="#"
+                  >Create a Page</a
+                >
+                <p class="d-inline text-secondary">
+                  for a celebrity, brand or business.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="JS/index.js"></script>
+  </body>
+</html>

@@ -1,0 +1,27 @@
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+
+.signup {
+  box-shadow: 0 2px 20px 2px grey;
+  max-width: 600px;
+  color: blue;
+}
+.signup input {
+  font-size: 16px;
+  font-weight: bold;
+  padding-left: 10px;
+  padding-right: 10px;
+  color: rgb(29, 29, 216);
+  border: 1px solid #d6d6d6;
+  outline-color: rgb(28, 28, 224);
+  overflow: hidden;
+}
+.rColor {
+  color: red !important;
+}
+.bColor {
+  color: blue !important;
+}

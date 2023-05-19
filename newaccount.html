@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="stylesheet/all.min.css">
+    <link rel="stylesheet" href="stylesheet/bootstrap.min.css">
+    <link rel="stylesheet" href="stylesheet/newaccount.css">
+    <title>Facebook-Signup</title>
+</head>
+<body>
+    <div class="container">
+        
+        <div class="page-signup d-flex justify-content-center mt-5">
+            <div class="d-flex flex-column justify-content-center signup w-100">
+                <div>
+                    <h1 class="text-light bg-primary text-center">Create Account</h1>
+                </div>
+    
+                <div class="d-flex flex-column align-center mb-3">
+                    <form action="index.html" onsubmit="return validationForm()">
+                        <!-- <div class="row"> -->
+                        <div class="row d-flex flex-row justify-content-around">
+                            <div class="col-lg-5 col-md 12 col-12 d-flex flex-column mb-3 justify-content-evenly ">
+                                <label class="text-primary fw-bold fLabel bColor">first name:</label>
+                                <input class="border rounded fName" type="text" placeholder=" Enter your first name">
+                                </div>
+                
+                                <div class="col-lg-5 col-md 12 col-12 d-flex flex-column mb-3 justify-content-evenly ">
+                                <label class="text-primary fw-bold lLabel bColor">last name:</label>
+                                <input class="border rounded lName" type="text" placeholder=" Enter your last name">
+                               </div>
+                        </div>
+         
+                        <div class="row d-flex flex-row justify-content-around">
+                            <div class="col-lg-5 col-md 12 col-12 d-flex flex-column mb-3 justify-content-evenly">
+                                <label class="text-primary fw-bold lEmail bColor">email:</label>
+                            <input class="border rounded email" type="text" placeholder=" Enter your email address" title="xxx@xxx.com">
+                            </div>
+            
+                            <div class="col-lg-5 col-md 12 col-12 d-flex flex-column mb-3 justify-content-evenly ">
+                            <label class="text-primary fw-bold lPhone bColor">phone number:</label>
+                            <input class="border rounded phone" type="text" placeholder=" Enter your phone number" title="1234567890">
+                            </div>
+                        </div>
+                        
+         
+                        <div class="row d-flex flex-row justify-content-around">
+                            <div class="col-lg-5 col-md 12 col-12 d-flex flex-column  justify-content-evenly">
+                                <label class="text-primary fw-bold lPass bColor">password:</label>
+                                <input class="border rounded pass" type="password" placeholder=" Enter your password">
+                             </div>
+             
+                             <div class="col-lg-5 col-md 12 col-12 d-flex flex-column  justify-content-evenly ">
+                                <label class="text-primary fw-bold lConfirmPass bColor">confirm password:</label>
+                             <input class="border  rounded confirmPass" type="password" placeholder=" Confirm your Password">
+                             </div>
+                        </div>
+                        </div>
+                        <div class="row d-flex flex-row justify-content-around">
+                            <div class="col-lg-5 col-md 12 col-12 d-flex mb-3">
+                                <input type="checkbox" class="showPass" />
+                                <p class="text-primary text-capitalize fw-bold mt-3 ms-2">
+                                  show password
+                                </p>
+                              </div>
+                              <div class="col-lg-5 col-md 12 col-12 d-flex mb-3">
+                                <input type="checkbox" class="showCoPass" />
+                                <p class="text-primary text-capitalize fw-bold mt-3 ms-2">
+                                  show password
+                                </p>
+                              </div>
+                        </div>
+                    <div class="row d-flex flex-row mt-3 justify-content-around mb-5">
+                         <div class="col-lg-5 col-md 12 col-12 radio-group ">
+                             <label class="text-primary fw-bold ms-2 me-2 gender bColor">gender :</label>
+                         <div class="ms-5">
+                             <input type="radio" class="mCheck">
+                             <label class="text-capitalize text-secondary fw-bold ">male</label>
+                         </div>
+                         <div class="ms-5">
+                             <input type="radio" class="fCheck">
+                             <label class="text-capitalize text-secondary fw-bold">female</label>
+                         </div>
+                         </div>
+                     
+                     <div class="col-lg-5 col-md 12 col-12 text-primary fw-bold d-flex flex-column ">
+                         <label class="text-primary fw-bold lDate bColor">Birthdate :</label>
+                         <input class="border rounded date" type="date">
+                     </div>
+                     </div>
+
+                     <div class="button ms-3">
+                        <input type="reset" value="Rest" class="btn btn-primary text-light mb-3 fw-bold bform text-center rounded"></input>
+                        <input type="submit" value="Register"  class="btn btn-primary text-light mb-3 fw-bold bform rounded"></input>
+                       </div>
+                    
+                     </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="JS/newaccount.js"></script>
+</body>
+</html>
